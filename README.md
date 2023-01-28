@@ -12,7 +12,7 @@ You will need the following libraries in your lib folder after you have grabbed 
 - adafruit_ili9341
 
 ## Photo
-![Photo of board](./images/hackerBoxes0087.png)
+![Photo of board](hackerBoxes0087.png)
 
 ## Licence
 
