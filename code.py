@@ -30,7 +30,7 @@ display_bus = displayio.FourWire(
     spi, command=tft_dc, chip_select=tft_cs, reset=board.GP21
 )
 display = adafruit_ili9341.ILI9341(display_bus, width=320, height=240)
-
+display.rotation = 180 ## rotate the display
 # Make the display context
 splash = displayio.Group()
 display.show(splash)
